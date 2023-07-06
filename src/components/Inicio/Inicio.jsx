@@ -6,7 +6,7 @@ const Inicio = () => {
     return ( 
         <>
             <div className='container-inicio-img'>
-                <img src={backgroundImg} ></img>
+                <img src={backgroundImg} alt=''></img>
             </div>
         </>
      );
