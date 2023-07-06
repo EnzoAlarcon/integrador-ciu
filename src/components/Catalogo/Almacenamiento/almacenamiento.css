@@ -1,0 +1,10 @@
+.container-almacenamiento {
+    display: flex;
+    justify-content: center;
+}
+
+.container-mascotas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,29 @@
+.container-inicio-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 75px;
+}
+
+.container-inicio-img img {
+    border-radius: 30px;
+    border: outset 2px black;
+    width: 80%;
+    transition: width 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .container-inicio-img {
+      margin-top: 120px;
+    }
+    
+    .container-inicio-img img {
+        content: url("../../images/background-phone.png");
+        width: 80%;
+        max-width: 500px;
+        max-height: 800px;
+        height: auto;
+    }
+  }

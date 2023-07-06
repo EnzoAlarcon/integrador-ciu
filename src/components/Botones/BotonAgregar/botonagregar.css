@@ -1,0 +1,29 @@
+.container-menu-catalogo .boton button{
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, #CD84F1, #7158E2);
+    height: 50px;
+    width: 250px;
+    transition: all 0.2 ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-menu-catalogo .boton button:active {
+    transform: scale(0.96);
+}
+
+.container-menu-catalogo .boton button:hover {
+    background-image: linear-gradient(90deg, #9f5ec0, #5d49b6);
+}
+
+
+@media (max-width: 768px) {
+    .container-menu-catalogo .boton button{
+        height: 20px;
+        width: 130px;
+        font-size: 12px;
+    }
+}

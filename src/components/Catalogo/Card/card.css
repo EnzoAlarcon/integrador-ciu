@@ -1,0 +1,26 @@
+.imagen {
+    width: 311px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-container {
+    margin: 15px;
+}
+
+.card-container .titulo, .card-container .descripcion {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-container .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #23262F;
+}
+
+.card-container .descripcion {
+    font-size: 20px;
+    color: #777E90;
+}
+

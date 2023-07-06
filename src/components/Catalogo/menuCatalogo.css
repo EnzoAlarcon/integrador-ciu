@@ -1,0 +1,23 @@
+.container-menu-catalogo {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+}
+
+.container {
+    border-top: solid white 2px;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+}
