@@ -23,3 +23,6 @@ Estas API se utilizan para mostrar imágenes aleatorias de gatos y perros en la 
 - Persistencia local: Los datos se almacenan localmente en el navegador del usuario.
 - Creación de componentes: Se crearon varios componentes personalizados para implementar la funcionalidad de la página.
 
+## Cómo visualizar la página
+
+- https://startling-treacle-5e3a4e.netlify.app/
